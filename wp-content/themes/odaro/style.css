@@ -1,0 +1,184 @@
+/*
+Theme Name: Odaro 1.0.1
+Theme URI: http://disenda.com/trabajos
+Description: Odaro Accessory website
+Version: 1.0
+Author: Carlos Wu
+Author URI: http://carkod.com
+Tags: tiled paper, table cloth texture logo
+
+*/
+
+
+html, body {height: 100%;}
+head { display:block;}
+.wrap {min-height:100%;}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+
+
+/* Overall styling */
+
+* {padding:0;margin:0;}
+
+html { background-color:#F0EEE1;}
+
+body {background:url(images/bg_logo.png) no-repeat 50% 60%;}
+
+
+/* Top Navigation styling */
+
+#topnav { display:block;
+overflow:hidden;
+text-align:center;}
+
+#topnav ul { list-style:none;
+margin: 0 auto;}
+#topnav ul li { display:inline;
+float:left;}
+
+#topnav a { text-decoration:none;
+color:#ae906b;
+font:18px Georgia,"Palatino Linotype", Palatino, "Times New Roman", serif;
+display:block;
+padding:10px;
+text-transform:uppercase;}
+
+#topnav a:hover { text-decoration:underline;}
+
+
+#topnav a span { margin-left:15px;}
+
+#topnav #language { float:left;}
+#topnav #pages { float:right;}
+
+#logo h1 { text-indent:-200000em;}
+
+
+/* Header styling */
+
+#header { clear:both;}
+
+
+@media (min-width: 1680px) {   
+        #header #logo { background:url(images/header_bg.png) no-repeat 40px 1px;
+height:195px;}
+    }
+@media (max-width: 1680px) {   
+        #header #logo { background:url(images/header_bg.png) no-repeat -200px 1px;
+height:195px;}
+    }
+
+
+
+
+/* Carousel navigation */
+
+#sidebar { overflow:hidden;
+background-color:#c6930a;}
+#sidebar ul { list-style:none;
+text-align:center;
+margin: 0 auto;
+width:700px;}
+#sidebar ul li { display:inline;
+float:left;}
+#sidebar ul li a { text-decoration:none;
+color:#fff;
+font:17px Georgia,"Palatino Linotype", Palatino, "Times New Roman", serif;
+display:block;
+padding:10px 20px;
+text-align:center;}
+
+#sidebar ul li a:hover, #sidebar ul li a:active { background-color:#997346;}
+
+/* Footer styling */
+
+#footer { clear:both;
+position:relative;
+height:25px;
+background-color:#997346;
+color:#fff;
+padding:10px;
+text-align:center;
+margin-top:-50px;
+font:14px "Trebuchet MS", Verdana, sans-serif;
+}
+
+#footer a { color:#fff;
+font:14px "Trebuchet MS", Verdana, sans-serif;
+text-decoration:none;}
+
+#footer a:hover, #footer a:active { color:#c6930a;}
+
+
+/* product styling */
+
+.product { clear:both;
+overflow:hidden;
+margin: 0 auto;
+padding: 50px 0;
+width:950px;}
+
+.product div.content-left { float:left;}
+
+.product div.content-left img {
+	 background:url(images/item-product_bg.png) no-repeat 0 0;
+	 padding:12px;}
+
+
+.product div.content-right { float:right;
+background:url(images/item_description.png) no-repeat 0 0;
+display:inline;
+width:440px;
+height:320px;
+font:14px bolder "Trebuchet MS", Verdana, sans-serif;
+color:#5B3910;
+text-align:justify;}
+
+div.content-right h3.content-right-title { color:#fff;
+text-align:center;
+padding: 0 0 2px 0;
+font:18px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+margin:10px 0;
+display:block;}
+
+div.content-right h2.contact { color:inherit;
+text-align:center;
+margin:10px 0;
+font:16px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+text-decoration:underline;}
+
+div.content-right p { padding: 0 35px;
+line-height:20px;}
+
+div.content-right a { padding: 25px;
+font:12px "Trebuchet MS", Verdana, sans-serif;
+color:#997346;}
+
+/* Page styling */
+
+#page { padding: 50px 0;
+width:700px;
+margin: 0 auto;}
+
+h3.page-title { font: 22px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+margin: 30px 10px;
+color: #C6930A;}
+
+#page h2, #page h3, #page h4 { font:22px Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+margin: 30px 10px;
+color:#C6930A;}
+
+#page p { font: 16px "Trebuchet MS", Verdana, sans-serif;
+color:#584f42;
+margin:10px;
+text-align:justify;}
+
+

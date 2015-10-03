@@ -1,0 +1,9 @@
+<li class="term-item {{#is-selected}}selected{{/is-selected}}">
+	{{#is-selected}}
+		<a class="remove-term" href="{{url}}" title="{{title}}">{{term-name}}</a>
+	{{/is-selected}}
+	{{^is-selected}}
+		<a class="add-term " href="{{url}}" title="{{title}}">{{term-name}}</a>
+	{{/is-selected}}
+	
+</li>

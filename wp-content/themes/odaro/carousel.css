@@ -1,0 +1,91 @@
+/* CSS Document */
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+	 overflow:hidden;
+   width:749px;
+  height:387px;
+
+  padding: 50px 0;
+  text-align:center;
+}
+
+
+
+.jcarousel-wrapper {
+   position: relative;
+margin: 0 auto;
+  width: 750px;
+     	
+}
+
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel-container {
+   width:200000em;
+   position:relative;
+ 
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel a {
+    /* Required only for block elements like <li>'s */
+    float: left;
+	margin: 0 2px;
+	width:230px;
+	background:url(images/item_bg.png) no-repeat center 0;
+	text-decoration:none;
+	color:#997346;
+	padding: 10px 5px 0 10px;	 
+}
+
+
+.jcarousel p.category { font:16px Georgia, serif;
+border-top:1px solid #997346;
+margin-top:5px;
+padding: 6px 0;
+text-align:center;
+width:225px;}
+
+.jcarousel p.codigo { font:14px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+padding: 5px 0;
+text-align:center;
+margin-bottom:15px;}
+
+a.jcarousel-control-prev{ width:40px;
+height:50px;
+background:url(images/arrows.png) no-repeat 0 0px;
+cursor:pointer;
+position: absolute;
+top: 200px ;
+left: -80px;}
+
+a.jcarousel-control-next { width: 40px;
+height:50px;
+background:url(images/arrows.png) no-repeat -40px 0;
+cursor:pointer;
+position: absolute;
+top: 200px;
+left: 780px;}
+
+
+.jcarousel-control-prev:hover { 
+background:url(images/arrows.png) no-repeat 0 -50px;
+cursor:pointer;}
+
+.jcarousel-control-next:hover { 
+background:url(images/arrows.png) no-repeat -40px -50px;
+cursor:pointer;}
+
